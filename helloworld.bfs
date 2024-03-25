@@ -1,0 +1,62 @@
+# ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+# ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+
+INC 8
+LOOP
+    RIGHT
+    INC 4
+    LOOP
+        RIGHT
+        INC 2
+        RIGHT
+        INC 3
+        RIGHT
+        INC 3
+        RIGHT
+        INC
+        LEFT 4
+        DEC
+    ENDLOOP
+    RIGHT
+    INC
+    RIGHT
+    INC
+    RIGHT
+    DEC
+    RIGHT 2
+    INC
+    LOOP
+        LEFT
+    ENDLOOP
+    LEFT
+    DEC
+ENDLOOP
+RIGHT 2
+OUT
+RIGHT
+DEC 3 
+OUT
+INC 7
+OUT
+OUT
+INC 3
+OUT
+RIGHT 2
+OUT
+LEFT
+DEC
+OUT
+LEFT
+OUT
+INC 3
+OUT
+DEC 6
+OUT
+DEC 8
+OUT
+RIGHT 2
+INC
+OUT
+RIGHT
+INC 2
+OUT
